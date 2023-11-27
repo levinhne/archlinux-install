@@ -1,0 +1,80 @@
+{
+  "additional-repositories": [],
+  "archinstall-language": "English",
+  "bootloader": "Grub",
+  "config_version": "2.7.0",
+  "debug": false,
+  "hostname": "archlinux",
+  "kernels": ["linux"],
+  "locale_config": {
+    "kb_layout": "us",
+    "sys_enc": "UTF-8",
+    "sys_lang": "en_US"
+  },
+  "mirror_config": {
+    "custom_mirrors": [],
+    "mirror_regions": {
+      "Vietnam": [
+        "https://mirrors.nguyenhoang.cloud/archlinux/$repo/os/$arch",
+        "http://mirror.bizflycloud.vn/archlinux/$repo/os/$arch"
+      ]
+    }
+  },
+  "network_config": {},
+  "no_pkg_lookups": false,
+  "ntp": true,
+  "offline": false,
+  "packages": [
+    // font
+    "noto-fonts",
+    "noto-fonts",
+    // xorg
+    "xorg",
+    // networking
+    "networkmanager",
+    "networkmanager-openconnect",
+    "networkmanager-openvpn",
+    "networkmanager-pptp",
+    "networkmanager-strongswan",
+    "networkmanager-vpnc",
+    "network-manager-sstp",
+    "nm-connection-editor",
+    "network-manager-applet",
+    // bluetooth
+    "bluez",
+    "bluez-utils",
+    "blueman",
+    // audio
+    "pipewire",
+    "wireplumber",
+    "pipewire-alsa",
+    "pipewire-pulse",
+    "pipewire-jack",
+    "pulsemixer",
+    "pavucontrol",
+    "gst-plugin-pipewire",
+    // qt style
+    "kvantum",
+    "qt5ct",
+    // utilities
+    "dialog",
+    "dunst",
+    "inotify-tools",
+    "",
+    "",
+    "picom",
+    "maim",
+    "xclip",
+    "xsettingsd",
+    "yad"
+  ],
+  "parallel downloads": 0,
+  "script": "guided",
+  "silent": false,
+  "skip_ntp": false,
+  "skip_version_check": false,
+  "swap": true,
+  "timezone": "UTC",
+  "uki": false,
+  "version": "2.7.0"
+}
